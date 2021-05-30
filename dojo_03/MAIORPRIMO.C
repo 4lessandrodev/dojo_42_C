@@ -12,9 +12,6 @@
 
 // Retornar o maior fator primo de um numero.
 
-#include <stdio.h>
-#include <stdlib.h>
-
 int primos(int n){
     int a,b,i;
     b = n;

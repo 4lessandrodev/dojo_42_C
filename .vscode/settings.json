@@ -1,0 +1,9 @@
+{
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.wrappingIndent": "indent",
+	"workbench.tree.indent": 4,
+	"editor.autoIndent": "none",
+	"editor.wordWrap": "wordWrapColumn",
+	"editor.wordWrapColumn": 79
+}

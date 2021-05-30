@@ -2,36 +2,36 @@
 
 int	main(void)
 {
-	int		value_one = 0;
-	int		value_two = 0;
+	int		value_one;
+	int		value_two;
 	char	symbol;
-	float	result = 0;
+	float	result;
 
 	printf("Informe o primeiro valor: ");
 	scanf("%d", &value_one);
 	printf("Informe o segundo valor: ");
 	scanf("%d", &value_two);
 	printf("Informe a operação: +, -, * ou / \n");
-	scanf("%c", &symbol);
+	scanf(" %c", &symbol);
 	if (symbol == '+')
 	{
 		result = value_two + value_one;
-		printf("Soma de %d + %d é: %f", value_one, value_two, result);
+		printf("Soma: %.2f \n", result);
 	}
 	if (symbol == '-')
 	{
 		result = value_two - value_one;
-		printf("Subtração de %d - %d é: %f", value_one, value_two, result);
+		printf("Subtração: %.2f \n", result);
 	}
 	if (symbol == '*')
 	{
 		result = value_two * value_one;
-		printf("Multiplicação de %d * %d é: %f",value_one, value_two, result);
+		printf ("Multiplicação: %.2f \n", result);
 	}
 	if (symbol == '/')
 	{
 		result = value_two / value_one;
-		printf("Divisão de %d / %d é: %f", value_one, value_two, result);
+		printf("Divisão: %.2f \n", result);
 	}
 	return (0);
 }

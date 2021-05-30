@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "calc_time.h"
 // With external function
+// Para compilar use esses comandos:
+// gcc -Wall -Wextra -Werror *c && ./a.out
 
 int	main(void)
 {

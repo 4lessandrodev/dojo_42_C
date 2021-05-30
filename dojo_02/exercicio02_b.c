@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "calc_time.h"
+// With external function
 
 int	main(void)
 {
@@ -10,13 +12,15 @@ int	main(void)
 	resultado = 0;
 	printf("Digite o valor da hora: ");
 	scanf("%d", &h);
-	resultado = h * 60 * 60;
+
 	printf("Digite o valor da mintos: ");
 	scanf("%d", &m);
-	resultado = resultado + (m * 60);
+
 	printf("Digite o valor da segundos: ");
 	scanf("%d", &s);
-	resultado = resultado + s;
+
+	resultado = calc_second(h, m, s);
+
 	printf("O resultado é : %i\n", resultado);
 	return (0);
 }

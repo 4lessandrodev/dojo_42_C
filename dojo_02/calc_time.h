@@ -1,0 +1,1 @@
+int calc_second (int hour, int minutes, int seconds);

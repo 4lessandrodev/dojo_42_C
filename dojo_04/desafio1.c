@@ -1,10 +1,12 @@
 #include <stdio.h>
 
-int	main(void);
+int	main(void)
 {
 	int	NUMBER;
 
-	NUMBER = 1;
+	NUMBER = 10;
 	NUMBER = NUMBER * 2;
-	prinft("%d");
+
+	printf("%i", NUMBER);
+	printf("\n");
 }

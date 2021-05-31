@@ -5,7 +5,7 @@
 
 int	main(void)
 {
-	int quantity;
+	int	quantity;
 	char vector[10];
 	char symbol;
 	int provided_value;
@@ -22,7 +22,7 @@ int	main(void)
 		vector[count] = symbol;
 		count++;
 		quantity--;
-		printf("%c", vector);//[!][!][!]
+		printf("%s", vector);//[!][!][!]
 	}
 	return (0);
 }
